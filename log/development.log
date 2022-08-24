@@ -251,3 +251,85 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 57ms (Views: 54.7ms | ActiveRecord: 0.0ms | Allocations: 4006)
 
 
+Started GET "/home/index" for 127.0.0.1 at 2022-08-23 20:14:26 -0600
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 517)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/randa/Github/final-cmt-homework/public/packs
+[Webpacker] warning package.json: No license field
+warning ..\..\package.json: No license field
+
+[Webpacker] Hash: a9b126d80062b33a1635
+Version: webpack 4.46.0
+Time: 3235ms
+Built at: 08/23/2022 8:14:32 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-3f93cb1dc749c44ecd15.js  3.72 MiB       application  [emitted] [immutable]  application
+     js/application-3f93cb1dc749c44ecd15.js.map  4.09 MiB       application  [emitted] [dev]        application
+         js/hello_react-efb2a9508fdae5934017.js  1.25 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-efb2a9508fdae5934017.js.map  1.44 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-d1575af7feee522e1794.js  3.72 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-d1575af7feee522e1794.js.map  4.09 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-3f93cb1dc749c44ecd15.js js/application-3f93cb1dc749c44ecd15.js.map
+Entrypoint hello_react = js/hello_react-efb2a9508fdae5934017.js js/hello_react-efb2a9508fdae5934017.js.map
+Entrypoint server_rendering = js/server_rendering-d1575af7feee522e1794.js js/server_rendering-d1575af7feee522e1794.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 548 bytes {application} {server_rendering} [built]
+[./app/javascript/helpers/axios-requests.js] 13.1 KiB {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 952 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 475 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 546 bytes {application} {hello_react} {server_rendering} [built]
+    + 195 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6539.4ms | Allocations: 28516)
+Completed 200 OK in 6585ms (Views: 6555.9ms | ActiveRecord: 0.0ms | Allocations: 31801)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-08-23 20:14:33 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/home/index" for 127.0.0.1 at 2022-08-23 20:18:48 -0600
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 517)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/randa/Github/final-cmt-homework/public/packs
+[Webpacker] warning package.json: No license field
+warning ..\..\package.json: No license field
+
+[Webpacker] Hash: 3fd82e3e9beb1d06f7b8
+Version: webpack 4.46.0
+Time: 3137ms
+Built at: 08/23/2022 8:18:54 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-8d347ca4cf487e4ba894.js  2.62 MiB       application  [emitted] [immutable]  application
+     js/application-8d347ca4cf487e4ba894.js.map  2.83 MiB       application  [emitted] [dev]        application
+         js/hello_react-efb2a9508fdae5934017.js  1.25 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-efb2a9508fdae5934017.js.map  1.44 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-b914c14b258a71c2639d.js  2.62 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-b914c14b258a71c2639d.js.map  2.83 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-8d347ca4cf487e4ba894.js js/application-8d347ca4cf487e4ba894.js.map
+Entrypoint hello_react = js/hello_react-efb2a9508fdae5934017.js js/hello_react-efb2a9508fdae5934017.js.map
+Entrypoint server_rendering = js/server_rendering-b914c14b258a71c2639d.js js/server_rendering-b914c14b258a71c2639d.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 548 bytes {application} {server_rendering} [built]
+[./app/javascript/helpers/axios-requests.js] 13.1 KiB {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 952 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 475 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 546 bytes {application} {hello_react} {server_rendering} [built]
+    + 191 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 5930.0ms | Allocations: 28564)
+Completed 200 OK in 5960ms (Views: 5940.2ms | ActiveRecord: 0.0ms | Allocations: 31849)
+
+
