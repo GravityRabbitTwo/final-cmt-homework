@@ -333,3 +333,90 @@ Entrypoint server_rendering = js/server_rendering-b914c14b258a71c2639d.js js/ser
 Completed 200 OK in 5960ms (Views: 5940.2ms | ActiveRecord: 0.0ms | Allocations: 31849)
 
 
+Started GET "/home/index" for 127.0.0.1 at 2022-08-23 20:23:48 -0600
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 517)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/randa/Github/final-cmt-homework/public/packs
+[Webpacker] warning package.json: No license field
+warning ..\..\package.json: No license field
+
+[Webpacker] Hash: 38fd92acfd92b4a98e2b
+Version: webpack 4.46.0
+Time: 3645ms
+Built at: 08/23/2022 8:23:55 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-74a8f2580d02491d52a8.js  2.61 MiB       application  [emitted] [immutable]  application
+     js/application-74a8f2580d02491d52a8.js.map  2.81 MiB       application  [emitted] [dev]        application
+         js/hello_react-efb2a9508fdae5934017.js  1.25 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-efb2a9508fdae5934017.js.map  1.44 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-5541c43a37dbbf66ebaf.js  2.61 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-5541c43a37dbbf66ebaf.js.map  2.81 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-74a8f2580d02491d52a8.js js/application-74a8f2580d02491d52a8.js.map
+Entrypoint hello_react = js/hello_react-efb2a9508fdae5934017.js js/hello_react-efb2a9508fdae5934017.js.map
+Entrypoint server_rendering = js/server_rendering-5541c43a37dbbf66ebaf.js js/server_rendering-5541c43a37dbbf66ebaf.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 548 bytes {application} {server_rendering} [built]
+[./app/javascript/helpers/axios-requests.js] 13.1 KiB {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 952 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 475 bytes {application} {hello_react} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 546 bytes {application} {hello_react} {server_rendering} [built]
+    + 188 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6703.6ms | Allocations: 28627)
+Completed 200 OK in 6736ms (Views: 6713.6ms | ActiveRecord: 0.0ms | Allocations: 31912)
+
+
+Started GET "/npis/1477547297" for 127.0.0.1 at 2022-08-23 20:25:06 -0600
+Processing by NpisController#show as JSON
+  Parameters: {"id"=>"1477547297"}
+Completed 200 OK in 575ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 2507)
+
+
+Started GET "/npis/1093908428" for 127.0.0.1 at 2022-08-23 20:25:31 -0600
+Processing by NpisController#show as JSON
+  Parameters: {"id"=>"1093908428"}
+Completed 200 OK in 364ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 1678)
+
+
+Started GET "/npis/1972575439" for 127.0.0.1 at 2022-08-23 20:25:49 -0600
+Processing by NpisController#show as JSON
+  Parameters: {"id"=>"1972575439"}
+Completed 200 OK in 308ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1764)
+
+
+Started GET "/npis/1477547297" for 127.0.0.1 at 2022-08-23 20:25:59 -0600
+Processing by NpisController#show as JSON
+  Parameters: {"id"=>"1477547297"}
+Completed 200 OK in 341ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1767)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2022-08-23 20:26:05 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49.5ms | Allocations: 3625)
+Completed 200 OK in 54ms (Views: 51.0ms | ActiveRecord: 0.0ms | Allocations: 3969)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2022-08-23 20:26:08 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 88)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.0ms | Allocations: 3442)
+Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.0ms | Allocations: 3758)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-08-23 20:26:08 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
